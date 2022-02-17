@@ -7,7 +7,7 @@ def bubble_sort(alist):
                 no_swap = False
         if no_swap:
             return
-alist = input("Enter the list of numbers :: ").split()
+alist = input("Enter the list of numbers (with spaces) :: ").split()
 alist = [int(x) for x in alist]
 bubble_sort(alist)
 print("sorted list :: ",end='')
