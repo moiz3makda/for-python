@@ -5,4 +5,9 @@ class parrot:
 
     def sing(self,song):
         return "{} sings {}".format(self.name,song)
-    def
+    def dance(self,style):
+        return "{} is now dancing in {} style".format(self.name,style)
+
+blu = parrot("blu",3)
+print(blu.sing("'Happy'"))
+print(blu.dance("hiphop"))
