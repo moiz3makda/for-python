@@ -7,3 +7,9 @@ class Counter:
         return self.__current
     def reset(self):
         self.__current = 0
+
+counter = Counter()
+print(counter._Counter__current)
+
+counter = Counter()
+print(counter.__current)
